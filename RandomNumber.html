@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate a Random Number</title>
+</head>
+<body>
+
+
+
+    <script>
+        // Math.random() returns a random floating-point number ranging from 0 to less than 1
+        var x = Math.random();
+        console.log("Before calculation",x);
+        // x = x * (10000-1) +1
+        console.log("After calculation",x);
+        //  Get a random number between a range
+        x = x *10000
+        // Number ke skte hai otp jaisa jaise 
+        console.log("Floor calculation", + Math.floor(x));
+        // Math.random()* (highestNumber - lowestNumber) + lowestNumber
+        
+    </script>
+</body>
+</html>
